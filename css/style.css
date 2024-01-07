@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.blog_items{
+    display: flex;
+}
+.blog{
+    background-color: aqua;
+    border: 20px solid green;
+    margin: 10px;
+    padding:20px;
+}
+.blog h3{
+    color: red;
+    margin: 2px;
+    font-size: 20px;
+}
+
+.blog2{
+    background-color: red;
+    color: rgb(81, 73, 126);
+}
+.blog2 h3{
+    color: black;
+}
+.list_ec{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(41, 117, 51);
+}
+.list_ec ol li{
+    display: inline-block;
+    padding: 30px;
+   
+}
+.list_ec ol li a{
+    color: rgb(11, 11, 12);
+    font-size: 20px;
+}
+.list_ec ol li:hover a{
+     background-color: blueviolet;
+    padding: 10px;
+
+}
